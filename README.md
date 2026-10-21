@@ -2,6 +2,8 @@
 
 Statyczna, lokalna wersja testowa procedury badawczej. Nie ma backendu, `localStorage`, ciasteczek ani eksportu danych. Odpowiedzi i próbki spojrzenia istnieją tylko w pamięci bieżącej karty.
 
+Nie otwieraj `index.html` bezpośrednio z dysku (`file:///...`). Mechanizmy bezpieczeństwa przeglądarki zablokują wtedy modele WebGazer/MediaPipe. Użyj wersji GitHub Pages albo serwera `localhost` opisanego poniżej.
+
 ## Uruchomienie
 
 Kamera działa na `localhost` lub przez HTTPS. W tym katalogu uruchom:
