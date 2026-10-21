@@ -12,7 +12,7 @@ python -m http.server 4173 --bind 127.0.0.1
 
 Następnie otwórz `http://localhost:4173/` w aktualnej wersji Chrome lub Edge. WebGazer może odrzucić równoważny adres `127.0.0.1`, ponieważ rozpoznaje dosłownie nazwę `localhost`.
 
-WebGazer.js jest pobierany z oficjalnego hosta projektu, dlatego pierwsze uruchomienie wymaga połączenia z internetem.
+WebGazer.js 3.5.3 jest pobierany z jsDelivr, a wymagane modele MediaPipe są przechowywane w repozytorium. Pierwsze uruchomienie biblioteki wymaga połączenia z internetem.
 
 ## Zakres prototypu
 
